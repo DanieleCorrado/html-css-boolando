@@ -71,7 +71,7 @@ main {
 
 /* Regole prodotto */
 
-article {
+.row > div {
   margin-top: 60px;
 }
 
