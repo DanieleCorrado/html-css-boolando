@@ -53,12 +53,92 @@ header {
   cursor: pointer;
 }
 
+/* Regole main */
+
+main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Regole righe prodotti */
+
+.row {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+/* Regole prodotto */
+
+article {
+  margin-top: 60px;
+}
+
+.save-article {
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 10px;
+  background-color: white;
+}
+
+.save-article:hover {
+  color: red;
+}
+
+.article-image {
+  position: relative;
+}
+
+.label {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+}
+
+.discount {
+  padding: 5px;
+  background-color: red;
+}
+
+.quality {
+  padding: 5px;
+  background-color: green;
+}
+
+.price {
+  color: red;
+}
+
+.original-price {
+  text-decoration: line-through;
+}
+
+.product-first-image {
+  height: 350px;
+}
+
+.product-second-image {
+  height: 350px;
+  display: none;
+}
+
+.article-image:hover .product-first-image{
+  cursor: pointer;
+  display: none;
+}
+
+.article-image:hover .product-second-image{
+  cursor: pointer;
+  display: inline-block;
+}
+
 /* Regole footer */
 
 footer {
   width: 100%;
-  position: fixed;
-  bottom: 0;
   color: white;
   background-color: rgb(26, 26, 26);
   padding-bottom: 10px;
@@ -80,4 +160,9 @@ footer {
 
 /* footer {
   background-color: aqua;
+} */
+/* 
+.row {
+  height: 500px;
+  background-color: violet;
 } */
